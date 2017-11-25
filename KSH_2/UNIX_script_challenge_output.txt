@@ -1,0 +1,5 @@
+Bob lives in Fremont, California. 
+Mary lives in Reno, Nevada. 
+Jane lives in Sunnyvale, California. 
+Joe lives in Henderson, Nevada. 
+Jill lives in Salinas, California. 

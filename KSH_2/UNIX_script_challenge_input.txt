@@ -1,0 +1,18 @@
+Bob lives in Fremont, California. 
+Bob is a programmer.
+Bob plays tennis.
+Mary lives in Reno, Nevada. 
+Mary is a gambler.
+Mary plays backjack.
+Mary plays tennis
+Jane lives in Sunnyvale, California. 
+Jane is a programmer.
+Jane plays soccer.
+Joe lives in Henderson, Nevada. 
+Joe is a gambler.
+Joe plays slots. 
+Joe plays soccer.
+Jill lives in Salinas, California. 
+Jill is a programme.
+Jill plays tennis.
+Jill plays blackjack.

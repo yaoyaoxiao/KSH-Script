@@ -1,0 +1,19 @@
+Last login: Fri Nov 24 20:46:38 on ttys000
+Xiaofangs-MacBook-Air:~ xiaofangyu$ cd /Users/xiaofangyu/ITUCourses/CSC505Unix
+Xiaofangs-MacBook-Air:CSC505Unix xiaofangyu$ 
+Xiaofangs-MacBook-Air:CSC505Unix xiaofangyu$ sed -n '/lives in/p' UNIX_script_challenge_input.txt > UNIX_script_challenge_output.txt
+Xiaofangs-MacBook-Air:CSC505Unix xiaofangyu$ 
+Xiaofangs-MacBook-Air:CSC505Unix xiaofangyu$ paste -d ',' <(cut -f 1 -d ' ' UNIX_script_challenge_output.txt) <(cut -f 5 -d ' ' UNIX_script_challenge_output.txt) | cut -f 1 -d '.' > file1
+Xiaofangs-MacBook-Air:CSC505Unix xiaofangyu$ 
+Xiaofangs-MacBook-Air:CSC505Unix xiaofangyu$ cut -f 2 -d ',' file1 | sort -r | awk '{if ($1!=prev && NR>1) {print($1, NR);prev=$1;}}' > UNIX_script_challenge_output_1.txt
+Xiaofangs-MacBook-Air:CSC505Unix xiaofangyu$ 
+
+
+
+
+
+
+
+
+
+
