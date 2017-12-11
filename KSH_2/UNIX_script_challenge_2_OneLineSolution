@@ -1,0 +1,1 @@
+sed -n '/lives in/p' $INPUT_FILE | cut -d ' ' -f 1,5 --output-delimiter | cut -d '.' -f 1 | awk -F, '{ freq[$2]++ } END { for (key in freq) { print key, freq[key] } }' 
